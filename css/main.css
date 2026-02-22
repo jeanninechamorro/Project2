@@ -1,0 +1,113 @@
+/* Place CSS styles here */
+body {
+    color: #462003;
+    background-color: #fff4e6;
+}
+
+h3 {
+    color: #9f4d00;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+}
+
+#myDiv {
+    background-color: #eadecd;
+}
+
+ul {
+    color: #720000;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+    color: #720000;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+h1 {
+    color: #eadecd;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2,
+.h2 {
+    color:#eadecd;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+address a {
+    color: #462003;
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section {
+    border: none; 
+    background-color: #462003;;
+    padding: 20px;
+    margin: auto;
+    max-width: auto;
+    text-align: center; 
+}
+
+.hero-section h1, 
+.hero-section .h2 {
+    margin: 10px 0;
+}
+
+.hero-section, 
+address {
+    background-color: #462003; 
+    padding: 30px 20px;
+    text-align: center;
+    border: none;
+    display: block; 
+}
+
+
+address, 
+address a {
+    color: #fffadd;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.image-group img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    border: none;
+}
