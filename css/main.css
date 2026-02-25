@@ -1,46 +1,129 @@
 /* Place CSS styles here */
 body {
-    color: #462003;
-    background-color: #fff4e6;
+    color: #b5c499;
+    background-color: #ffffff;
 }
 
-h3 {
-    color: #9f4d00;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Montserrat', sans-serif;  
+    padding: 20px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header img{
+    margin-left: -20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    color:#b5c499;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.header-links a {
+    display: flex;
+    gap: 20px;
+    color:#b5c499;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.hero-content{
+    text-align: center;
+    width: auto;
+}
+.hero-section {
+    background-image: url('../img/hero1sunset.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    margin-bottom: -40px;
+    line-height: 0.8;
+    text-align: center;
+    color: #f3eaa6;
+    font-family: 'Rouge Script', cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: none;
+}
+
+.hero-content .h3, 
+.hero-content h3 {
+    font-size: clamp(rem, 2vw, 2rem);
+    margin-bottom: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 40px;
+    border-color: #ffffff;
 }
 
+.hero-content .h2, 
+.hero-content h2 {
+    font-size: clamp(3rem, 6vw, 2rem);
+    margin-bottom: 20px;
+    margin-top: 1.4;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-content a{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 12px 35px; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
 #myDiv {
     background-color: #eadecd;
 }
 
-ul {
-    color: #720000;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-}
-
-ol {
-    color: #720000;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .montserrat-regular {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-size: larger;
     font-weight: 400; 
     font-style: normal;
 }
 
-h1 {
-    color: #eadecd;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 40px;
-}
-
-h2,
 .h2 {
     color:#eadecd;
     font-family: 'Montserrat', sans-serif;
@@ -49,65 +132,249 @@ h2,
     font-weight: 700;
 }
 
+
 address {
     font-style: normal;
     margin-top: 20px;
 }
 
-address a {
-    color: #462003;
-    text-decoration: none; 
-    font-weight: bold;
-    text-align: left;
-    margin-left: 40px;
-    margin-top: 40px;
+.otheroptions {
+    background-color: #b5c499;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 20px; 
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otheroptions h4{
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-.hero-section {
-    border: none; 
-    background-color: #462003;;
-    padding: 20px;
-    margin: auto;
-    max-width: auto;
-    text-align: center; 
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
 }
 
-.hero-section h1, 
-.hero-section .h2 {
-    margin: 10px 0;
-}
-
-.hero-section, 
-address {
-    background-color: #462003; 
-    padding: 30px 20px;
+.option-item {
+    flex: 1;
     text-align: center;
-    border: none;
-    display: block; 
+    max-width: 200px;
 }
 
+.option-item img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.otheroptions h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
 
 address, 
 address a {
-    color: #fffadd;
+    color: #b5c499;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-style: normal;
     text-align: center;
 }
 
-.image-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin: 30px 0;
+div p{
+   color: #b5c499;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-align: left; 
 }
 
-.image-group img {
-    width: 200px;
-    height: 200px; 
-    object-fit: cover;
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-footer .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.footer-contact p, 
+.footer-contact a {
+    text-align: right;
+    display: block;
+    width: 100%;
+    margin: 0%;
+    line-height:1.4 ;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-about {
+    text-align: left;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #b5c499;
+}
+
+::selection {
+    background-color: #b5c499;
+    color: white;
+}
+::-moz-selection {
+    background-color: #b5c499;
+    color: white;
+}
+
+.registration-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registration-container h1 {
+    color: #b5c499;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration-container button {
+    width: 100%;
+    background-color: #b5c499;
     border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+
+.thankyou h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 220px;
+
+}
+
+.thankyou p{
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        align-items: stretch; 
+        gap: 40px;
+    }
+
+    .footer-about {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .footer-about p {
+        max-width: 320px;
+        margin: 0;
+        line-height: 1.5;
+        color: #b5c499;
+    }
+
+    .footer-about .footer-title {
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+    .image-gallery{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .option-item img{
+        max-width: 150px;
+    }
+    .otheroptions h4{
+        margin-top: 20px;
+    }
 }
