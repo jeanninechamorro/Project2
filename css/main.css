@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    color: #b5c499;
+    color: #8c9b71;
     background-color: #ffffff;
 }
 
@@ -24,14 +24,14 @@ body {
     align-items: center;
     display: flex;
     gap: 20px;
-    color:#b5c499;
+    color:#8c9b71;
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
 }
 .header-links a {
     display: flex;
     gap: 20px;
-    color:#b5c499;
+    color:#8c9b71;
     font-family:'Montserrat', sans-serif;
     text-decoration: none;
     align-items: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: clamp(3rem, 10vw, 6rem);
+    font-size: clamp(6rem, 10vw, 6rem);
     margin-bottom: -40px;
     line-height: 0.8;
     text-align: center;
@@ -66,6 +66,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     text-transform: none;
+    text-shadow: 3px 0 0 #ffa60084;
 }
 
 .hero-content .h3, 
@@ -78,6 +79,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     border-color: #ffffff;
+    text-shadow: 3px 0 0 #6a3636;
 }
 
 .hero-content .h2, 
@@ -90,6 +92,7 @@ body {
     color: #ffffff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 0 0 rgba(164, 109, 8, 0.475);
 }
 
 .hero-content a{
@@ -130,6 +133,7 @@ body {
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
+    text-shadow: 3px 0 0 #6a3636;
 }
 
 
@@ -138,6 +142,7 @@ address {
     margin-top: 20px;
 }
 
+/* Color here looks fine without shadows or anything. Color regulation shouldn't be a problem in this area */
 .otheroptions {
     background-color: #b5c499;
     color: #ffffff;
@@ -190,9 +195,10 @@ address {
     font-size: 1.1rem;
 }
 
+/* Text alignment on footer was done on purpose */
 address, 
 address a {
-    color: #b5c499;
+    color: #8c9b71;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-style: normal;
@@ -200,7 +206,7 @@ address a {
 }
 
 div p{
-   color: #b5c499;
+   color: #8c9b71;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-style: normal;
@@ -251,15 +257,15 @@ div p{
 .footer-title {
     font-weight: 700;
     margin-bottom: 10px;
-    color: #b5c499;
+    color: #8c9b71;
 }
 
 ::selection {
-    background-color: #b5c499;
+    background-color: #8c9b71;
     color: white;
 }
 ::-moz-selection {
-    background-color: #b5c499;
+    background-color: #8c9b71;
     color: white;
 }
 
@@ -344,7 +350,7 @@ input {
         max-width: 320px;
         margin: 0;
         line-height: 1.5;
-        color: #b5c499;
+        color: #8c9b71;
     }
 
     .footer-about .footer-title {
