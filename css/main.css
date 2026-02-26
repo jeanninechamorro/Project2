@@ -38,10 +38,13 @@ body {
 
 }
 
+/* h1 and h2 were close on purpose*/
 .hero-content{
     text-align: center;
     width: auto;
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-section {
     background-image: url('../img/hero1sunset.jpeg');
